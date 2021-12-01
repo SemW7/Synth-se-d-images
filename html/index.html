@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta  charset="utf-8">
+    <title>Curling</title>
+    <script type="text/javascript" charset="UTF-8" src="../libs/three/three.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="../libs/other/ThreeBSP.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="../libs/three/controls/TrackballControls.js"></script>
+    <script type="text/javascript" src="../libs/util/dat.gui.js"></script>
+    <script type="text/javascript" src="../libs/util/Stats.js"></script>
+    <script type="text/javascript" src="../libs/util/util.js"></script>
+    <script type="text/javascript" src="../libs/threex/threex.domevents.js"></script>
+
+    <script type="text/javascript" src="../js/Balais.js"></script>
+    <script type="text/javascript" src="../js/Trajectoire.js"></script>
+    <script type="text/javascript" src="../js/Maison.js"></script>
+    <script type="text/javascript" src="../js/Sol.js"></script>    
+    <script type="text/javascript" src="../js/Pierre.js"></script>
+    <script type="text/javascript" src="../js/GeometrieUtile.js"></script>
+    <script type="text/javascript" src="../js/ModeleMateriaux.js"></script>
+    <script type="text/javascript" src="../js/CameraLumiere.js"></script>
+    <script type="text/javascript" src="../js/Bezier.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>    
+    <link rel="stylesheet" href="../css/styleindex.css">
+</head>
+
+
+<body onload="init()">
+    <div id="webgl"></div>
+    <form id="controle" action="mailto:toto@wanadoo.fr" method="post">
+      <fieldset>
+        <legend>SCORE</legend>
+        <div>
+          <table id="score">
+          <tr>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>TOTAL</td>
+          </tr>
+          <tr>
+            <td id="equipe-bleue">BLEU</td>
+            <td id="bleu1">0</td>
+            <td id="bleu2">0</td>
+            <td id="bleu3">0</td>
+            <td id="bleu4">0</td>
+            <td id="bleu5">0</td>
+            <td id="bleu6">0</td>
+            <td id="bleu7">0</td>
+            <td id="bleu8">0</td>
+            <td id="bleu9">0</td>
+            <td id="bleu10">0</td>
+            <td id="total-bleu">0</td>
+          </tr>
+          <tr>
+            <td id="equipe-rouge">ROUGE</td>
+            <td id="rouge1">0</td>
+            <td id="rouge2">0</td>
+            <td id="rouge3">0</td>
+            <td id="rouge4">0</td>
+            <td id="rouge5">0</td>
+            <td id="rouge6">0</td>
+            <td id="rouge7">0</td>
+            <td id="rouge8">0</td>
+            <td id="rouge9">0</td>
+            <td id="rouge10">0</td>
+            <td id="total-rouge">0</td>
+          </tr>
+          </table>          
+        </div>
+      </fieldset>
+    </form>
+    <p id="result"></p>
+</body>
+
+</html>
