@@ -1,0 +1,36 @@
+.expo{
+ vertical-align:super;
+}
+
+body {
+ background-color:#AAAAAA;
+/*margin: 0.5;
+    overflow: hidden;*/
+}
+
+#webgl{
+ border:solid 2px red;
+ /*margin-left: 0.5cm;
+ width:95%;
+ height:95%;*/
+ background-color:white;
+}
+
+fieldset{
+ color : white;
+ background-color:black;
+ font-weight:900;
+}
+
+#equipe-bleue {
+    color: rgb(43, 113, 170);
+}
+
+#equipe-rouge {
+    color: rgba(238, 38, 25, 0.8);
+}
+
+#score {
+    color: rgb(43, 113, 170);
+    /*color: rgb(240, 74, 74);*/
+}
